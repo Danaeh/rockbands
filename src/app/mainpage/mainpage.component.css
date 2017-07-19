@@ -1,0 +1,23 @@
+.container{
+  width: 70%;
+  height: 65%;
+  margin-right: 10px;
+}
+.name-group{
+  color: white;
+  font-size: 65px;
+  font-family: 'Metal Mania';
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.name-song{
+  color: white;
+  font-size: 25px;
+  font-family: 'Metal Mania';
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}

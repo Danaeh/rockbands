@@ -11,7 +11,8 @@ import { Bar } from './bar/bar.component';
 import { Beatles } from './beatles/beatles.component';
 import { Queen } from './queen/queen.component';
 import { Rollings } from './rollings/rollings.component';
-
+import { Mainpage } from './mainpage/mainpage.component';
+import { Aside } from './aside/aside.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { Rollings } from './rollings/rollings.component';
     Bar,
     Queen,
     Beatles,
-    Rollings
+    Rollings,
+    Mainpage,
+    Aside
   ],
   imports: [
     BrowserModule,

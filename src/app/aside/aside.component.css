@@ -1,0 +1,17 @@
+.aside-container{
+  color: white;
+  font-family: 'Roboto';
+  width: 30%;
+  margin-left: 10px;
+  height: 80%;
+  overflow: scroll;
+}
+.aside-image{
+  max-width: 330px;
+  width: 90%;
+  margin: 10px;
+}
+.biography{
+  width: 90;
+
+}
