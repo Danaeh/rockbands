@@ -1,20 +1,20 @@
-<nav>
-  <a [routerLink]="['/pagina-principal']" [routerLinkActive]="['active-page']">
+<nav [ngClass]="['nav-menu']">
+  <a [routerLink]="['/']" [routerLinkActive]="['active-page']">
     Home
   </a>
-  <a [routerLink]="['/queen']">
+  <a [routerLink]="['/queen']" [routerLinkActive]="['active-page']">
     Queen
   </a>
-  <a [routerLink]="['/the-rolling-stones']">
-    Rollings
+  <a [routerLink]="['/the-rolling-stones']" [routerLinkActive]="['active-page']">
+    The Rolling Stones
   </a>
-  <a [routerLink]="['/the-beatles']">
+  <a [routerLink]="['/the-beatles']" [routerLinkActive]="['active-page']">
     The Beatles
   </a>
-  <a [routerLink]="['/foo']">
+  <a [routerLink]="['/foo']" [routerLinkActive]="['active-page']">
     Foo
   </a>
-  <a [routerLink]="['/bar']">
+  <a [routerLink]="['/bar']" [routerLinkActive]="['active-page']">
     Bar
   </a>
 </nav>

@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 
-const menu: string= ['Home','Queen','The Beatles','Rollings','Foo','Bar']
+
 export class Header {
-  public menu:Array<string>
+  
 }
