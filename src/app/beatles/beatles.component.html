@@ -1,1 +1,33 @@
 <header></header>
+<div [ngClass]="['content']">
+  <div [ngClass]="['video-content']">
+    <mainpage
+    [title]="'The Beatles'"
+    [subtitle]='"Cannt buy my love"'
+    >
+  </mainpage>
+  <div class="video-responsive">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/srwxJUXPHvE" frameborder="0" allowfullscreen></iframe>
+
+  </div>
+</div>
+
+<aside
+[imagesource]="'../assets/beatles.jpg'"
+[imagecommentary]="'Imagen de The Beatles'"
+[Biography]="'The Beatles fue una banda de pop/rock inglesa activa durante
+ la década de 1960, y reconocida como la más exitosa comercialmente y la más
+ alabada por la crítica en la historia de la música popular.​ Formada en Liverpool,
+ estuvo constituida desde 1962 por John Lennon (guitarra rítmica, vocalista),
+ Paul McCartney (bajo, vocalista), George Harrison (guitarra solista, vocalista)
+ y Ringo Starr (batería, vocalista). La naturaleza de su enorme popularidad,
+ que había emergido primeramente con la moda de la «Beatlemanía»,
+ se transformó al tiempo que sus composiciones se volvieron más sofisticadas.
+  Llegaron a ser percibidos como la encarnación de los ideales progresistas,
+  extendiendo su influencia en las revoluciones sociales y culturales de la
+  década de 1960.
+'"
+>
+</aside>
+
+</div>

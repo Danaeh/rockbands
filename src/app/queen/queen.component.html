@@ -1,16 +1,32 @@
 <header></header>
-<mainpage
-[title]="'Queen'"
-[subtitle]='"Dont stop me now"'
->
-</mainpage>
-<div class="video-responsive">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/HgzGwKwLmgM" frameborder="0" allowfullscreen></iframe>
+<div [ngClass]="['content']">
+  <div [ngClass]="['video-content']">
+    <mainpage
+    [title]="'Queen'"
+    [subtitle]='"Dont stop me now"'
+    >
+  </mainpage>
+  <div class="video-responsive">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HgzGwKwLmgM" frameborder="0" allowfullscreen></iframe>
 
+  </div>
 </div>
+
 <aside
 [imagesource]="'../assets/Queen.jpg'"
 [imagecommentary]="'Imagen de Queen'"
-[Biography]="'BLablablabalbalbalbalbalbalbalbalbablalallablab'"
-[linksource]="'https://es.wikipedia.org/wiki/Queen'"
-> </aside>
+[Biography]="'Queen es una banda británica de rock formada en 1970 en Londres
+ por el cantante Freddie Mercury, el guitarrista Brian May, el baterista Roger
+ Taylor y el bajista John Deacon.
+
+ Considerada a nivel mundial como una de las mejores bandas de la historia,
+ tambien  es conocida por haber sido una banda de gran influencia en el desarrollo del hard rock
+ y el heavy metal, incorporando elementos del glam rock, rock progresivo, folk, blues y pop.
+ Su cantante fue una de las mejores voces del mundo, por su increible e inigualable cantidad
+ de registros.
+
+'"
+>
+</aside>
+
+</div>

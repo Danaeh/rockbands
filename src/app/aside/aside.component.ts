@@ -8,12 +8,8 @@ import { Component, Input } from '@angular/core';
 
 
 export class Aside {
-  title:string="Biografia";
+  title:string="Biografía";
   @Input() imagesource:any;
   @Input() imagecommentary:any;
   @Input() Biography:string;
-  @Input() linksource:any;
-
-
-
 }

@@ -1,17 +1,23 @@
 .aside-container{
   color: white;
   font-family: 'Roboto';
-  width: 30%;
+  width: 90%;
   margin-left: 10px;
   height: 80%;
-  overflow: scroll;
+  background-color: rgba(197,52,69,0.8);
+  margin-top: 15px;
+
 }
 .aside-image{
   max-width: 330px;
   width: 90%;
-  margin: 10px;
+  margin: 20px;
 }
-.biography{
-  width: 90;
-
+.biography h4{
+  width: 100%;
+  text-align: center;
+}
+.biography p{
+  margin: 15px;
+  max-width: 300px;
 }
