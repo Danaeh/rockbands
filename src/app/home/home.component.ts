@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class Home {
-  title = 'Las mejores Bandas de Rock';
+  title = 'Las mejores Bandas del Rock';
 }

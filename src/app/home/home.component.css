@@ -1,0 +1,20 @@
+.principal-title{
+  color: white;
+  font-size: 65px;
+  font-family: 'Metal Mania';
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.home-image{
+  width: 50%;
+
+}
