@@ -1,0 +1,14 @@
+.title{
+  color: white;
+  font-size: 65px;
+  font-family: 'Metal Mania';
+  text-align: center;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.image-soon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

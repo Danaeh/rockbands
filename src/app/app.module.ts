@@ -13,6 +13,7 @@ import { Queen } from './queen/queen.component';
 import { Rollings } from './rollings/rollings.component';
 import { Mainpage } from './mainpage/mainpage.component';
 import { Aside } from './aside/aside.component';
+import { Construction } from './construction/construction.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { Aside } from './aside/aside.component';
     Beatles,
     Rollings,
     Mainpage,
-    Aside
+    Aside,
+    Construction
   ],
   imports: [
     BrowserModule,
